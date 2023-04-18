@@ -1,0 +1,90 @@
+header.header {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+button{
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+.sidebar {
+  width: 200px;
+  height: 250%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(31, 31, 31);
+  padding: 20px;
+  color: white;
+  position: absolute;
+}
+h2{
+  color: black;
+  border: 2px;
+  text-align: center;
+  background-color: white;
+
+
+}
+p.sidebar{
+  color: white;
+  border: 2px;
+  
+}
+.main {
+  padding: 20px;
+  background-color: black;
+}
+footer{
+  color: white;
+  background-color: black;
+  padding: black;
+  margin: black;
+  border: black;
+}
+body {
+    display: block;
+    margin: 20px ;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    
+    background-color: black;
+    border: 2px black;
+    color: white;
+    
+}
+h1 {
+    color: black;
+    text-align: center;
+    background-color: white;
+  }
+  p {
+    border: 10px purple;
+    background-color: black;
+    color: white;
+  }
+  
+  .column {
+    float: left;
+    }
+  /* Set width length for the left, right and middle columns */
+      .left {
+        width: 34%;
+        }
+    
+        .middle {
+        width: 33%;
+        }
+        
+        .right {
+        width: 33%;
+        }
+    
+        .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
